@@ -1,4 +1,3 @@
-import com.sun.jdi.Value
 import java.time.LocalDateTime
 
 fun repeatChar(){
@@ -60,5 +59,5 @@ fun makeSomething(
     expires: LocalDateTime? = LocalDateTime.now().plusMinutes(30),
     secure: Boolean? = true
 ){
-    println("Name: $name, Value: $value, Expires: $expires, Secure: $secure")
+    println("Name: $name, Value: $value, Expires: ${expires}, Secure: $secure")
 }
