@@ -16,4 +16,7 @@ fun main(){
     println(i::class)
     println(l::class)
 
+    println(Int.MIN_VALUE)
+    println(Double.MAX_VALUE)
+
 }
